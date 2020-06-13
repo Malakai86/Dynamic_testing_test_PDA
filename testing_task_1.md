@@ -6,7 +6,17 @@
 
 class CardGame
 
+# added attr acessor to modify and test in spec and initialize to assignt he values to the class of card
+  # attr_accessor :suit, :value, :total
+  #
+  # def initialize(suit, value, total)
+  #   @suit = suit
+  #   @value = value
+  #   @total = total
+  # end
+  # //////////////
 
+# use the correct snake case of check_for_ace
   def checkforAce(card)
     if card.value = 1
       return true
@@ -15,7 +25,9 @@ class CardGame
     end
   end
 
+# change dif to def
   dif highest_card(card1 card2)
+  # added a comma to the parameters to seperate the variables properly
   if card1.value > card2.value
     return card
   else
@@ -24,6 +36,7 @@ class CardGame
 end
 end
 
+# removed the self. after def
 def self.cards_total(cards)
   total
   for card in cards

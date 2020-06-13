@@ -14,8 +14,6 @@ def setup()
 
 end
 
-
-
 def test_check_for_ace__true
   result = @card1.value == 1
   assert_equal(true, result)
@@ -35,6 +33,7 @@ def test_cards_total
   result = @card1.value + @card2.value
   assert_equal(3, result)
 end
+
 
 
 end
